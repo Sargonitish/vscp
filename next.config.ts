@@ -1,17 +1,15 @@
 import type { NextConfig } from 'next';
 
+const isGithubPages = process.env.GITHUB_ACTIONS === 'true';
+
 const nextConfig: NextConfig = {
-  turbopack: {
-    root: '/home/nitish/Downloads/vscd/vscd-portfolio',
-  },
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'avatars.githubusercontent.com',
-      },
-    ],
-  },
+  ...(isGithubPages && {
+    output: 'export',
+    basePath: '/vscp',
+    assetPrefix: '/vscp/',
+    trailingSlash: true,
+    images: { unoptimized: true },
+  }),
 };
 
 export default nextConfig;
