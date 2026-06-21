@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="var(--bg-tertiary, #2d2d2d)" rx="8"/>
+  <rect x="40" y="40" width="320" height="220" fill="var(--bg-secondary, #252526)" rx="4"/>
+  <circle cx="70" cy="70" r="8" fill="var(--text-muted, #6a6a6a)"/>
+  <circle cx="95" cy="70" r="8" fill="var(--text-muted, #6a6a6a)"/>
+  <circle cx="120" cy="70" r="8" fill="var(--text-muted, #6a6a6a)"/>
+  <rect x="55" y="95" width="150" height="8" fill="var(--text-muted, #6a6a6a)" rx="4"/>
+  <rect x="55" y="115" width="280" height="8" fill="var(--text-muted, #6a6a6a)" rx="4" opacity="0.6"/>
+  <rect x="55" y="135" width="200" height="8" fill="var(--text-muted, #6a6a6a)" rx="4" opacity="0.4"/>
+  <rect x="55" y="170" width="120" height="8" fill="var(--accent, #007acc)" rx="4"/>
+  <rect x="55" y="190" width="250" height="8" fill="var(--text-muted, #6a6a6a)" rx="4" opacity="0.5"/>
+  <rect x="55" y="210" width="180" height="8" fill="var(--text-muted, #6a6a6a)" rx="4" opacity="0.3"/>
+</svg>
